@@ -1,0 +1,60 @@
+.unit-spaces-table {
+    grid-area: a;
+}
+
+p {
+    font-size: 17px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 22px;
+    margin-left: 11%;
+}
+
+p:first-child {
+    margin-top: 3vh;
+}
+
+.ui.table {
+    height: -webkit-fill-available;
+    width: 80%;
+    background-color: #26374c;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #8dabc4;
+    text-align: left;
+}
+
+.ui.table thead th {
+    background-color: #26374c;
+    font-size: 15px;
+    color: #8dabc4;
+    text-align: left;
+}
+
+.ui.table tr td {
+    border-top: 1px solid #334b69;
+}
+
+.ui.table tr:first-child td {
+    border-top: 1px solid #334b69;
+}
+
+select {
+    border: 1px solid #0093ee;
+    border-radius: 3px;
+    /* width: 786px; */
+    background-color: #26374c;
+    font-size: 15px;
+    color: #8dabc4;
+    text-align: left;
+    line-height: 19px;
+}
+
+tbody {
+    tr:hover {
+        background: teal;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,10 @@
+.main {
+    background: #1b2739;
+    grid-area: main;
+    flex-direction: column;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 73% 27%;
+    grid-template-rows: auto;
+    grid-template-areas: "a b";
+}

@@ -1,0 +1,191 @@
+.map-filter-main {
+    background: #26374c;
+
+    .map-header {
+        display: flex;
+        justify-content: space-between;
+        height: 81px;
+        background: #1c293b;
+        align-items: center;
+        padding: 15px;
+    }
+    .map-header div:nth-of-type(1) {
+        font-size: 17px;
+        color: #ffffff;
+        text-align: left;
+        line-height: 22px;
+    }
+    .map-header div:nth-of-type(2) {
+        font-size: 15px;
+        color: #7c99b0;
+        text-align: left;
+        span {
+            color: #f63c28;
+        }
+    }
+
+    .title-page{
+
+        font-size: 17px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 22px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        margin-left: 3%;
+        padding-top: 20px;
+
+    }
+    .map-main-first {
+        display: flex;
+        padding: 15px;
+        .main-first{
+            display: flex;
+            flex-direction: column;
+            margin-left: 5%;
+
+        }
+
+        .filter-box-first {
+            width: 33%;
+            padding-left: 2%;
+            padding-right: 2%;
+            .title {
+                font-size: 72%;
+                color: #8dabc4;
+                margin-bottom: 15px;
+                background:#253345;
+                width: 100%;
+                height: 42px;
+                margin-bottom: 27px;
+                padding-top: 3%;
+                padding-left: 2%;
+            }
+        }
+       
+        .filter-box-first{
+            .ui.small.input {
+                width: 100%!important;
+                i {
+                    color: #0093ee !important;
+                }
+            }
+            input {
+                display: inline-block;
+                width: 100%;
+                padding: 10px;
+                background-color: rgb(38, 55, 76);
+                border: 1px solid rgb(60, 75, 91);
+                color: white;
+                margin-bottom: 5px;
+                
+        
+            
+            }
+            .ui.input {
+                width: 85%!important;
+                color: #ffffff!important;
+                margin-left: 6%;
+            }
+
+            
+        }
+        .adresss input {
+            background: red;
+            .autocompleteItemActive {
+                background: red
+            }
+        }
+        .filter-box-first:nth-of-type(2) {
+            display: flex;
+            flex-direction: column;
+            .main-first {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-left: 5%;
+            }
+            label {
+                margin-top: 4px;
+                font-size: 13px!important;
+                color: #ffffff!important;
+            }   
+    }
+    .ui.checkbox label, .ui.checkbox+label {
+        color: white!important;
+        font-size: 77%!important;
+        margin-bottom: 5px!important;
+    }
+    .ui.checkbox .box:before,
+    .ui.checkbox label:before {
+        background: inherit !important;
+        color: white!important;
+    }
+    .ui checkbox {
+        margin-bottom: 5px !important;
+    }
+    label:after {
+        font-family: Checkbox;
+        background: #0093ee;
+    }
+}
+    .map-main-sec {
+        display: flex;
+        padding: 15px;
+        .check-box {
+            padding: 15px !important;
+            width: 33.3%;
+            
+        }
+        .check-header {
+            font-size: 72%;
+            color: #8dabc4;
+            margin-bottom: 15px;
+            background:#253345;
+            width: 100%;
+            height: 42px;
+            margin-bottom: 27px;
+            padding-top: 3%;
+            padding-left: 2%;
+        }
+        .check-main {
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+        }
+        .ui checkbox {
+            margin-top: 5px!important;
+        }
+        label {
+            margin-bottom: 10px!important;
+            font-size: 15px!important;
+            color: #ffffff!important;
+        }
+        .ui.checkbox label, .ui.checkbox+label {
+            color: white!important;
+            font-size: 77%!important;
+            margin-bottom: 5px;
+        }
+        .ui.checkbox .box:before,
+        .ui.checkbox label:before {
+            background: inherit !important;
+           
+
+        }
+        label:after {
+            font-family: Checkbox;
+            background: #0093ee;
+        }
+    }
+
+
+    .ui.checkbox input:checked~.box:after, .ui.checkbox input:checked~label:after {
+        opacity: 1!important;
+        color: white!important
+    }
+    .button{
+margin-left: 73%
+
+    }
+}

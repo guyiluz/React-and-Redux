@@ -1,0 +1,59 @@
+
+.conitner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100VH;
+}
+
+
+
+.loggin-Box{
+    display: flex;
+    align-items: center;
+    height: 425px;
+    width: 500px;
+    border-radius: 4px;
+    justify-content: unset;
+    background-color: #26374c;
+    flex-direction: column;
+    img{
+
+
+        margin-top: 66px;
+        margin-bottom: 37px;
+    }
+
+    form{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+input{
+
+    height: 42px;
+    width: 299px;
+    border: 1px solid #3f536e;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 114%;
+    color: #8dabc4;
+
+}
+
+button{
+
+    height: 42px;
+    width: 299px;
+    background-color: #0093ee;
+    border: 1px solid #0093ee;
+    border-radius: 4px;
+    margin-top: 18p;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+}

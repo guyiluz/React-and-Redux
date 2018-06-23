@@ -1,0 +1,31 @@
+.xchart {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    .continer {
+        display: flex;
+        justify-content: space-between;
+        height: 45px;
+        align-items: center;
+        color: #c2d6e5;
+    }
+    .name {
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff;
+        line-height: 22px;
+        width: 8%;
+        text-align: center;
+    }
+    span {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .param {
+        width: 61vw;
+    }
+    .recharts-default-tooltip {
+        cursor: pointer;
+        display: none !important;
+    }
+}

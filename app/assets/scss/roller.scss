@@ -1,0 +1,16 @@
+.roller {
+    display: flex;
+    background: #1b2739;
+    height: 76px;
+    .side {
+        width: 30%;
+        background: #172335;
+    }
+    img {
+        width: 61vw;
+        margin-top: 33px;
+    }
+    .rm {
+        background: #172335;
+    }
+}

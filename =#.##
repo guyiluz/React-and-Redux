@@ -1,0 +1,82 @@
+react2017@1.0.0 C:\Users\guyil\Documents\GitHub\CoreMainWeb
++-- element-react@1.2.6
+| +-- react@15.6.2 
+| `-- react-dom@15.6.2 
++-- moment@2.18.1 
++-- UNMET PEER DEPENDENCY react@16.0.0
++-- react-addons-shallow-compare@15.6.2 
++-- react-dates@13.0.2 
+| +-- airbnb-prop-types@2.8.1 
+| | +-- array.prototype.find@2.0.4 
+| | +-- function.prototype.name@1.0.3 
+| | | `-- is-callable@1.1.3 
+| | +-- is-regex@1.0.4 
+| | +-- object.entries@1.0.4 
+| | `-- prop-types-exact@1.1.1 
+| +-- consolidated-events@1.1.1 
+| +-- is-touch-device@1.0.1 
+| +-- object.assign@4.0.4 
+| | +-- define-properties@1.1.2 
+| | | `-- foreach@2.0.5 
+| | `-- object-keys@1.0.11 
+| +-- object.values@1.0.4 
+| | `-- es-abstract@1.9.0 
+| |   `-- es-to-primitive@1.1.1 
+| +-- UNMET PEER DEPENDENCY react@^0.14 || ^15.6.0
+| +-- UNMET PEER DEPENDENCY react-dom@^0.14 || ^15.6.0
+| +-- react-moment-proptypes@1.5.0 
+| +-- react-portal@3.1.0 
+| +-- react-with-styles@2.2.0 
+| | +-- deepmerge@1.5.2 
+| | +-- global-cache@1.2.1 
+| | | `-- is-symbol@1.0.1 
+| | `-- hoist-non-react-statics@2.3.1 
+| `-- react-with-styles-interface-css@2.0.2 
+|   +-- aphrodite@1.2.4 
+|   | +-- inline-style-prefixer@3.0.8 
+|   | | +-- bowser@1.8.0 
+|   | | `-- css-in-js-utils@2.0.0 
+|   | |   `-- hyphenate-style-name@1.0.2 
+|   | `-- string-hash@1.1.3 
+|   +-- array-flatten@2.1.1 
+|   +-- clean-css@4.1.9 
+|   `-- jsdom@11.3.0 
+|     +-- abab@1.0.4 
+|     +-- acorn@5.1.2 
+|     +-- acorn-globals@4.0.0 
+|     | `-- acorn@5.1.2 
+|     +-- array-equal@1.0.0 
+|     +-- content-type-parser@1.0.1 
+|     +-- cssom@0.3.2 
+|     +-- cssstyle@0.2.37 
+|     +-- domexception@1.0.0 
+|     +-- escodegen@1.9.0 
+|     | +-- esprima@3.1.3 
+|     | +-- estraverse@4.2.0 
+|     | `-- optionator@0.8.2 
+|     |   +-- deep-is@0.1.3 
+|     |   +-- fast-levenshtein@2.0.6 
+|     |   +-- levn@0.3.0 
+|     |   +-- prelude-ls@1.1.2 
+|     |   +-- type-check@0.3.2 
+|     |   `-- wordwrap@1.0.0 
+|     +-- html-encoding-sniffer@1.0.1 
+|     +-- nwmatcher@1.4.2 
+|     +-- parse5@3.0.2 
+|     | `-- @types/node@6.0.89 
+|     +-- pn@1.0.0 
+|     +-- request-promise-native@1.0.5 
+|     | +-- request-promise-core@1.1.1 
+|     | `-- stealthy-require@1.1.1 
+|     +-- symbol-tree@3.2.2 
+|     +-- webidl-conversions@4.0.2 
+|     +-- whatwg-encoding@1.0.1 
+|     | `-- iconv-lite@0.4.13 
+|     +-- whatwg-url@6.3.0 
+|     | +-- lodash.sortby@4.7.0 
+|     | `-- tr46@1.0.1 
+|     |   `-- punycode@2.1.0 
+|     `-- xml-name-validator@2.0.1 
++-- UNMET PEER DEPENDENCY react-dom@16.0.0
+`-- UNMET PEER DEPENDENCY webpack@1.15.0
+

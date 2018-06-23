@@ -1,0 +1,63 @@
+.menu {
+    grid-area: sidea;
+    background: #27384f;
+    min-height: 89vh;
+    overflow: hidden;
+    p {
+        font-size: 14px;
+        color: #8dabc4;
+        text-align: left;
+        letter-spacing: 0.15em;
+        width: 80%;
+        margin-left: 7%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .core-dev-con {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        .manu-icon {
+            margin-left: 16px;
+            img {
+                margin-right: 13px;
+            }
+        }
+        .manu-text {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            margin-top: 8px;
+            label {
+                font-size: 15px;
+                color: #ffffff;
+                text-align: left;
+            }
+            p {
+                font-size: 13px;
+                color: #67859e;
+                text-align: left;
+                line-height: 19px;
+                display: inline-block;
+                margin-left: 0;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.psado-border {
+    background-color: #8dabc4;
+    height: 0.6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.psado {
+    background-color: #8dabc4;
+    height: 1.6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}

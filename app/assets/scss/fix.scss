@@ -1,0 +1,89 @@
+
+// add background on click
+.bottom-nav .search-box input {
+    border: none !important;
+    background-color: inherit !important;
+    font-size: 17px !important;
+    color: white !important;
+    margin-left: 11px;
+}
+.bottom-nav .search-box svg {
+    margin-top: 9px!important;
+    margin-left: 11px!important;
+    opacity: 0.6!important;
+}
+
+//    div before img   margin-left: 1%;
+.bottom-nav .search-box {
+    border: 1px solid #59a2d6!important;
+    border-radius: 4px!important;
+    height: 36px!important;
+    width: 54%!important;
+    margin-right: 27%!important;
+    margin-left: 20%!important;
+    display: flex;
+    flex-direction: row!important;
+    background: #3381c7!important;
+}
+
+
+.layout {
+    display: grid!important;
+    width: 100%;
+    grid-template-columns: 19% 88%!important;
+    grid-template-rows: auto;
+    grid-template-areas: "hedar hedar" "hedarb hedarb" "sidea main" "dev dev";
+}
+
+
+.menu {
+    grid-area: sidea;
+    background: #223247!important;
+    min-height: 89vh!important;
+    overflow: hidden!important;
+}
+
+
+
+.menu p {
+    font-size: 14px!important;
+    color: #8dabc4!important;
+    /* text-align: left; */
+    letter-spacing: 0.15em!important;
+    width: 80%!important;
+    margin-left: 6%!important;
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+}
+
+
+.menu .core-dev-con {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* margin-top: 10px; */
+}
+
+.menu .core-dev-con {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* margin-top: 10px; */
+}
+.psado-border {
+    background-color: #8dabc4!important;
+    height: 0.6px!important;
+    /* margin-top: 10px; */
+    margin-bottom: 20px!important;
+    opacity: 0.1!important;
+}
+
+.menu .core-dev-con {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* margin-top: 10px; */
+    margin-left: 13px!important;
+}
+
+

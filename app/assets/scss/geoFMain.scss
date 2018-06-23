@@ -1,0 +1,16 @@
+.geo-main {
+    .ui.table {
+        width: 100% !important;
+    }
+    .ui.checkbox .box:before,
+    .ui.checkbox label:before {
+        background: inherit !important;
+    }
+    label:after {
+        font-family: Checkbox;
+        background: #0093ee;
+    }
+    .ui.table thead th {
+        font-size: 12px !important;
+    }
+}

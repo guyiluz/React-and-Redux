@@ -1,0 +1,172 @@
+@import "./notifcaion";
+@import "./map";
+@import "./xchart";
+@import "./roller";
+@import "./chart";
+@import "./geoFMain";
+.device-page {
+    display: grid;
+    grid-area: dev;
+    width: 100%;
+    grid-template-columns: 9% 82% 9%;
+    grid-template-areas: "header header header" ". main .";
+}
+
+.dev-header {
+    grid-area: header;
+    height: 69px;
+    background-color: #26374c;
+    border-bottom: 1px solid #ffff;
+    display: flex;
+    align-items: center;
+    .breadcrumb {
+        box-sizing: inherit;
+        font-size: 17px;
+        color: rgba(141, 171, 196, 1);
+        display: flex;
+        align-items: center;
+        margin-left: 3vw;
+    }
+    a {
+        margin-left: 80vw;
+    }
+    span {
+        font-size: 17px;
+        color: rgba(236, 245, 253, 1);
+        background-color: rgba(44, 64, 90, 1);
+        border-radius: 13px;
+        font-weight: 0;
+        color: rgba(0, 147, 238, 1);
+        text-align: left;
+    }
+}
+
+.dev-main {
+    grid-area: main;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    .loader {
+        margin-top: 26% !important;
+        margin-left: 36% !important;
+    }
+}
+
+.Header-sec {
+    .Header-sec-left {
+        display: flex;
+        margin-top: 27px;
+        justify-content: space-between;
+        height: 63px;
+        .device-text {
+            font-size: 24px;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+    }
+    h1 {
+        font-size: 34px;
+        font-weight: 0;
+        color: rgba(255, 255, 255, 1);
+        text-align: left;
+        letter-spacing: -0.01em;
+        line-height: 44px
+    }
+    p {
+        font-size: 17px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 22px;
+        margin: 0;
+        padding: 0;
+
+
+     
+    }
+    .ui.attached:not(.message)+.ui.attached.segment:not(.top) {
+        border-top: none;
+        background: inherit;
+        border: 0!important; 
+        padding: 0!important; 
+    }
+    .ui.tabular.menu .active.item {
+        background: #26374c;
+        color: #0092ed;
+        border-top-width: 1px;
+        border-radius: 0!important;
+        border-top: 1px solid #0079c4!important;
+        font-weight: 100!important; 
+
+    }
+    .ui.tabular.menu .item {
+        background: 0 0;
+        border-bottom: none;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        border-top: 2px solid transparent;
+        padding: .92857143em 1.42857143em;
+        color: rgba(253, 98, 98, 0.87);
+        font-size: 15px;
+        color: #65829c;
+        text-align: left;
+        font-family: inherit;
+        font-size: 15px;
+        line-height: 19px;
+
+    }
+
+    .ui.attached.menu{
+        border-top: 1px solid #313f4f !important;
+        border-bottom: none !important;
+        margin-top: 27px;
+
+    }
+
+
+
+    .time-date-box {
+        display: flex;
+        .buttonSave {
+            margin-left: 13%;
+            height: 43px;
+            margin-top: 42px;
+            width: 143px;
+            background-color: #0093ee !important;
+            border: 1px solid #000000 !important;
+            border-radius: 4px;
+            font-size: 15px !important;
+            color: #ffffff !important;
+            text-align: center !important;
+            cursor: pointer;
+        }
+        .buttonSave:hover {
+            background-color: #105780 !important;
+        }
+    }
+    .btn {
+        margin-top: 7px;
+        margin-left: 7%;
+    }
+
+    .no-data{
+        font-size: 30px;
+        color: #8dabc4;
+        text-align: center;
+        line-height: 22px;
+        margin: 231px;
+        padding: 0;
+        
+    }
+}
+
+// date picker
+.DateInput_1,
+.DateRangePickerInput {
+    background: #1b2739;
+    cursor: pointer;
+}
+
+
+.DayPickerKeyboardShortcuts_show__bottomRight {
+
+    display:none !important;
+}

@@ -1,0 +1,38 @@
+$side-font:15px;
+.chartCountiner {
+    display: flex;
+    height: 76px;
+    cursor: pointer;
+    .side {
+        width: 8.5%;
+        background-color: #1a273a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #c2d6e5;
+        padding-left: 0%;
+        .title {
+            font-size: $side-font
+        }
+        .data {
+            font-size: $side-font
+        }
+    }
+    .sideb {
+        width: 8.5%;
+        width: 8.5%;
+        font-size: 21px;
+        text-align: center;
+        color: #c2d6e5;
+        margin-top: 16px;
+    }
+    .chart {
+        width: 61vw;
+        margin-top: 3px;
+    }
+    .recharts-default-tooltip {
+        cursor: pointer;
+        display: none !important;
+    }
+}
